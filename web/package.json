@@ -1,0 +1,17 @@
+{
+  "name": "ambit_robotics",
+  "version": "1.0.0",
+  "description": "Website for Ambit Robotics (farmer screen)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Mehul Warade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.0",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
