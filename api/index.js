@@ -15,5 +15,6 @@ app.listen(port, () => {
 const base = `${__dirname}/files`;
 
 app.get('/csv', function(req, res) {
-    res.sendFile(`${base}/Spray Log 20200608-111530.csv`);
+    // res.sendFile(`${base}/Spray Log 20200608-111530.csv`);
+    res.sendFile(`${base}/log.csv`);
 });
