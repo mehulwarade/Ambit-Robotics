@@ -41,7 +41,7 @@ app.get('/', function(req, res) {
         }
       })
       .on("end", function(){
-        setlatlong()
+        saveimg()
       });
 });
 
@@ -49,34 +49,12 @@ app.get('/file', function(req, res) {
   res.sendFile(`abc.txt`);
 });
 
-app.get('/map', function(req, res) {
-  const options = {
-    width: 1024,
-    height: 1024,
-    zoomRange: 17
-  };
-
-  const map = new StaticMaps(options);
-
-  const marker = {
-    img: `mark.png`, // can also be a URL,
-    width: 48,
-    height: 48,
-    coord: [145.0728497, -37.7477025],
-   };
-  map.addMarker(marker);
-
-  map.render()
-    .then(() => map.image.save('single-marker.png'))
-    .then(() => { console.log('File saved!'); })
-    .catch(console.log);
-
+app.get('/test', function(req, res) {
+  res.send(latlong);
 });
 
-function setlatlong(){
+function saveimg(){
   // console.log(`test code work`);
-  // console.log(latlong);
-
   const options = {
     width: 300,
     height: 300,
@@ -84,18 +62,6 @@ function setlatlong(){
 
   const map = new StaticMaps(options);
 
-  // const marker = {
-  //   img: `${__dirname}/images/marker.png`,
-  //   width: 48,
-  //   height: 48
-  // };
-
-  // var i =0;
-  // for(i;i<=latlong.length-1;i++){
-  //   console.log(i);
-  //   marker.coord = latlong[i];
-  //   map.addMarker(marker);
-  // }
   var line = {
     coords: latlong,
     color: '#0000FFBB',
@@ -110,3 +76,30 @@ function setlatlong(){
     .catch(console.log);
 
 }
+
+
+
+/* <=================== Extra test code ==================================> */
+// app.get('/map', function(req, res) {
+//   const options = {
+//     width: 1024,
+//     height: 1024,
+//     zoomRange: 17
+//   };
+
+//   const map = new StaticMaps(options);
+
+//   const marker = {
+//     img: `mark.png`, // can also be a URL,
+//     width: 48,
+//     height: 48,
+//     coord: [145.0728497, -37.7477025],
+//    };
+//   map.addMarker(marker);
+
+//   map.render()
+//     .then(() => map.image.save('single-marker.png'))
+//     .then(() => { console.log('File saved!'); })
+//     .catch(console.log);
+
+// });

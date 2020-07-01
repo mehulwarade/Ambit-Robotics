@@ -1,0 +1,18 @@
+{
+  "name": "web-google",
+  "version": "1.0.0",
+  "description": "Ambit robotics - google api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Mehul Warade",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
