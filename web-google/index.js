@@ -53,4 +53,3 @@ app.get('/', function(req, res) {
 app.get('/ajax', function(req, res) {
   res.send(latlong);
 });
-
