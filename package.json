@@ -1,0 +1,40 @@
+{
+  "name": "ambit-robotics",
+  "version": "1.0.0",
+  "description": "This website is the screen that farmers see regarding the job conducted by the robot on their farm.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "admin": "nodemon admin.js",
+    "app": "nodemon app.js"
+  },
+  "nodemonConfig": {
+    "__comment": "Use to ignore monitoring of certain files: https://stackoverflow.com/a/50303181",
+    "ignore": [
+      "./data.json"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehulwarade/Ambit-Robotics.git"
+  },
+  "author": "Mehul Warade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehulwarade/Ambit-Robotics/issues"
+  },
+  "homepage": "https://github.com/mehulwarade/Ambit-Robotics#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}

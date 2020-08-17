@@ -1,0 +1,10 @@
+{
+    "__comment": "Data file for easy access to past information.",
+    "format": {
+        "name": {
+            "url":"",
+            "password":"",
+            "fname":""
+        }
+    }
+}

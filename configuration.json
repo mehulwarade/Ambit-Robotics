@@ -1,0 +1,18 @@
+{
+    "__comment": "Configuration file for ambit messaging service",
+    "app": {
+        "__comment1": "NodeJS code",
+        "name":"Admin",
+        "port": 8000,
+        "csv_folder":"./csv",
+        "public_access_DNS":"http://127.0.0.1:8000?",
+
+
+
+
+
+
+        "__comment": "Csv folder path should be from root directory",
+        "csv_folder_alternate":"/Users/mwarade/Desktop/Ambit-Robotics/csv"
+    }
+}
