@@ -5,7 +5,7 @@
         "name":"Admin",
         "port": 8000,
         "csv_folder":"./csv",
-        "public_access_DNS":"http://127.0.0.1:8000?",
+        "public_access_DNS":"http://127.0.0.1",
 
 
 
@@ -14,5 +14,9 @@
 
         "__comment": "Csv folder path should be from root directory",
         "csv_folder_alternate":"/Users/mwarade/Desktop/Ambit-Robotics/csv"
+    },
+    "crypto":{
+        "key":"this_is_some_32_letter_key_crypt",
+        "iv":"this_is_16_crypt"
     }
 }
