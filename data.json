@@ -18,11 +18,8 @@
     "password": "abc xyz2",
     "url": "http://127.0.0.1:8000/?ref=ce2933be7caa55e52ca2f01df4ccaad4&auth=e2af0a7e81b894c9c184e4c96ad65df8",
     "fname": "test2.csv",
-    "spray_number": 1,
+    "spray_number": null,
     "run": {
-      "1": {
-        "fname": "test2.csv"
-      },
       "NaN": {
         "fname": "test2.csv"
       }
@@ -32,18 +29,6 @@
     "name": "abc xyz",
     "password": "abc xyz3",
     "url": "http://127.0.0.1:8000/?ref=ce2933be7caa55e52ca2f01df4ccaad4&auth=4c2f4c1a55fc49f4f92c317b4df7e00b",
-    "fname": "test2.csv",
-    "spray_number": null,
-    "run": {
-      "NaN": {
-        "fname": "test2.csv"
-      }
-    }
-  },
-  "4": {
-    "name": "abc xyz",
-    "password": "abc xyz4",
-    "url": "http://127.0.0.1:8000/?ref=ce2933be7caa55e52ca2f01df4ccaad4&auth=6a4407b2e60d6c9bb434f010c5888bd9",
     "fname": "test2.csv"
   }
 }
