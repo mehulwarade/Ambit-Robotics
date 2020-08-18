@@ -28,22 +28,35 @@ else {
     process.exit();
 }
 
+
+var data = require('./data.json');
+
+const editJsonFile = require("edit-json-file");
+
+let file = editJsonFile(`${__dirname}/data.json`, {
+    autosave: true
+});
+
 const run = async () => {
 
     try {
+        // console.log(data);
+        // console.log(file.get("1.name"));
+        // console.log(functions.getCSVFileList());
+        // console.log(functions.encrypt(data[1].name));
+        // file.set("b.new.field.as.objesct", {
+        //     hello: "worsld"
+        // });
 
-        console.log(functions.getCSVFileList());
-
-        var hw = functions.encrypt("Somsssse serious stuff")
-        console.log(hw)
-        console.log(functions.decrypt(hw))
+        for (index in data) {
+            console.log(data[index].name);
+        }
 
     }
 
     catch (err) {
         console.log(chalk.red(err));
     }
-
 }
 
 run();

@@ -1,10 +1,25 @@
 {
-    "__comment": "Data file for easy access to past information.",
-    "format": {
-        "name": {
-            "url":"",
-            "password":"",
-            "fname":""
+  "1": {
+    "name": "Mehul Warade",
+    "url": "http://127.0.0.1:8000/?ref=62671c893b04794e20061b166994558a",
+    "password": "ss",
+    "fname": "test"
+  },
+  "2": {
+    "name": "Mehul",
+    "url": "http://google.com",
+    "password": "ss",
+    "fname": "test"
+  },
+  "b": {
+    "new": {
+      "field": {
+        "as": {
+          "objesct": {
+            "hello": "worsld"
+          }
         }
+      }
     }
+  }
 }

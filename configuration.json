@@ -18,5 +18,8 @@
     "crypto":{
         "key":"this_is_some_32_letter_key_crypt",
         "iv":"this_is_16_crypt"
+    },
+    "admin":{
+        "password":"password"
     }
 }
