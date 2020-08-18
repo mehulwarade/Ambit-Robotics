@@ -6,7 +6,7 @@ Spray Used, 20%
 ,,
 ,,
 ,,
-,,
+sss,,
 xavg,31.63161000000001,spray_navS2_DriveSpeed,0.2,spray_navS3_BE_WP_Distance,1,drive_StraightK_P,100,drive_loopDelay,0.1
 yavg,-28.850700000000007,spray_navS3_DriveSpeed,1,spray_navS3_WP_Dist_Threshold,1.5,drive_StraightK_D,1
 xavg,31.63161000000001,spray_navS2_BE_P,0.1,spray_navLoopSleepTime,0.01,drive_StraightTurnFactorMax,0.1

@@ -13,7 +13,7 @@
   "nodemonConfig": {
     "__comment": "Use to ignore monitoring of certain files: https://stackoverflow.com/a/50303181",
     "ignore": [
-      "./data.json"
+      "/data.json"
     ]
   },
   "repository": {
@@ -34,6 +34,7 @@
     "edit-json-file": "^1.4.1",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
+    "fast-csv": "^4.3.1",
     "fs": "0.0.1-security",
     "lodash": "^4.17.20",
     "nodemon": "^2.0.4",

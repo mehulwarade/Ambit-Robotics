@@ -1,0 +1,53 @@
+{
+  "1": {
+    "name": "Mehul Warade",
+    "url": "http://127.0.0.1:8000/?ref=62671c893b04794e20061b166994558a&auth=df8c5073c8a7db3064600664fe891ba9",
+    "password": "testpas",
+    "spray_number": 1,
+    "run": {
+      "1": {
+        "fname": "test"
+      }
+    }
+  },
+  "2": {
+    "name": "Mehul",
+    "url": "http://google.com",
+    "password": "ss",
+    "fname": "test"
+  },
+  "4": {
+    "name": "Mehul Warade",
+    "password": "Mehul Warade4",
+    "url": "http://127.0.0.1:8000/?ref=62671c893b04794e20061b166994558a&auth=3e1d65b497ef96dbfda57f503e2e8077",
+    "fname": "test.csv",
+    "spray_number": 1,
+    "run": {
+      "1": {
+        "fname": "test.csv"
+      },
+      "NaN": {
+        "fname": "test.csv"
+      }
+    }
+  },
+  "5": {
+    "name": "Mehul Warade",
+    "password": "Mehul Warade5",
+    "url": "http://127.0.0.1:8000/?ref=62671c893b04794e20061b166994558a&auth=2ff723df722c7d009328761de11ad807",
+    "fname": "test.csv",
+    "spray_number": null,
+    "run": {
+      "NaN": {
+        "fname": "test.csv"
+      }
+    }
+  },
+  "6": {
+    "name": "Mehul Warade",
+    "password": "Mehul Warade6",
+    "url": "http://127.0.0.1:8000/?ref=62671c893b04794e20061b166994558a&auth=45d2cdab5a2605a476e586e14c29d92b",
+    "fname": "test.csv"
+  },
+  "1 rows": "anytown"
+}
