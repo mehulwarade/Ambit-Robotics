@@ -20,6 +20,7 @@
         "iv":"this_is_16_crypt"
     },
     "admin":{
+        "username":"admin",
         "password":"password"
     }
 }
